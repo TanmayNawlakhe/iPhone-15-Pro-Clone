@@ -54,8 +54,8 @@ const Howitworks = () => {
 
                 </div>
 
-                <div className='mt-10 md:mt-20 mb-14'>
-                    <div className='relative h-full flex-center'>
+                <div className='mt-10 md:mt-20 mb-14 flex flex-col justify-center items-center'>
+                    <div className='relative w-fit h-full flex-center '>
                         <div className='overflow-hidden'>
                             <img
                                 draggable='false'
@@ -67,7 +67,7 @@ const Howitworks = () => {
 
                         </div>
 
-                        <div className='hiw-video'>
+                        <div className='hiw-video '>
                             <video
                                 muted
                                 ref={videoRef}
@@ -88,7 +88,7 @@ const Howitworks = () => {
 
 
                 <div className='hiw-text-container'>
-                    <div className='flex justify-center flex-col'>
+                    <div className='flex justify-center flex-col items-center'>
                         <p className='hiw-text g_fadeIn'>
                                 A17 Pro is an entirely new class of iPhone chip that delivers our{' '}
                             <span className='text-white'>
