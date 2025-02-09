@@ -12,8 +12,6 @@
   "dependencies": {
     "@react-three/drei": "^9.119.0",
     "@react-three/fiber": "^8.17.10",
-    "@sentry/react": "^8.42.0",
-    "@sentry/vite-plugin": "^2.22.7",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "three": "^0.171.0"

@@ -4,7 +4,6 @@ import Highlighs from './components/Highlights'
 import Model from './components/Model'
 import Features from './components/features'
 
-import * as Sentry from '@sentry/react';
 import Howitworks from './components/Howitworks'
 import Footer from './components/Footer'
 
@@ -28,4 +27,4 @@ const App = () => {
   )
 }
 
-export default Sentry.withProfiler(App);
+export default App;
